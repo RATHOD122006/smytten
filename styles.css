@@ -10,7 +10,7 @@ body {
 
 }
 
-/* Decstop */
+
 
 .navbar {
     width: 100%;
@@ -105,6 +105,7 @@ input {
     color: rgb(0, 0, 0);
     border-radius: 20px;
 }
+
 .singbtn > button:hover {
    
     color: rgb(255, 255, 255);
@@ -151,10 +152,12 @@ input {
 
 
 }
+
 .logom{
     width: 70px;
     height: 45px;
 }
+
 .logom > img {
     width: 100%;
     height: 100%;
@@ -204,7 +207,7 @@ footer {
     height: 100%;
 }
 
-/* decstop//////////////////////////////////////////////////////////////////////////////////////////// */
+
 
 
 :root {
@@ -345,7 +348,7 @@ footer {
 }
 
 
-/* /* teblet /////////////////////////////////////////////////////////////////////////////////////////////// */
+
 
 
 @media (min-width : 425px) and (max-width:768px) {
@@ -443,7 +446,7 @@ footer {
 
 }
 
-/* mobile/////////////////////////////////////////////////////////////////////////////////////////////// */
+
 
 @media (min-width : 0px) and (max-width:424px) {
     .card {
@@ -550,4 +553,8 @@ footer {
     #mobile {
         display: none;
     }
+}
+
+.fa-regular {
+    margin-right: -20px;
 }
