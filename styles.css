@@ -178,15 +178,19 @@ footer {
     border-top: 1px solid black;
     position: fixed;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
     bottom: 0;
 
 }
 
 .icon {
-    font-size: 2.2rem;
-
+    font-size: 6.2rem;
+    height: 30px;
+    width: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 
 }
 
@@ -346,6 +350,8 @@ footer {
 .btn2:hover{
     box-shadow: 1px 1px 15px 0px rgb(85, 85, 85)
 }
+
+
 
 
 
