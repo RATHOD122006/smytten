@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            color: white;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+        }
+
+        .wrapper {
+            width: 100vw;
+            height: 100vh;
+            background-image: url('./14176.jpg');
+            background-size: cover;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+
+        .box {
+            width: 400px;
+            display: inline-block;
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            background-color: rgba(255, 255, 255, 0.308);
+            backdrop-filter: blur(50px);
+            border-radius: 5%;
+            padding: 20px;
+
+        }
+
+        .header {
+            width: 100%;
+            height: auto;
+            display: flex;
+            justify-content: center;
+
+        }
+
+        form {
+            width: 100%;
+            height: 100%;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            flex-direction: column;
+            flex-wrap: wrap;
+        }
+
+        .name {
+            margin-top: 10%;
+            margin-bottom: 6%;
+        }
+
+        .number {
+            margin-top: 6%;
+            margin-bottom: 6%;
+        }
+
+        .email {
+            margin-top: 6%;
+            margin-bottom: 6%;
+        }
+
+        .password {
+            margin-top: 6%;
+            margin-bottom: 10%;
+        }
+
+        input {
+            border: none;
+            outline: none;
+            width: 90%;
+            height: 15px;
+            border-radius: 10px;
+            padding: 5px 10px;
+            color: black;
+        }
+        button{
+            background-color:transparent;
+            border: none;
+        }
+        .login{
+           
+            border-radius: 10px;
+            padding: 5px 10px;
+            background-color: #88D66B;
+
+        }
+        .login:hover{
+            background-color: #A2CA71;
+        }
+
+    </style>
+
+    <div class="wrapper">
+        <div class="box">
+            <div class="header">
+                <h1>Registretion Form </h1>
+            </div>
+            <form>
+                <div class="name">
+                    <label>Nema :</label><br>
+                    <input type="Ueserame" name="Uesername" placeholder="Uesername">
+
+                </div>
+                <div class="number">
+                    <label>Mobile NO :</label> <br>
+                    <input type="number" name="Mobile NO" placeholder="Mobile Number">
+                </div>
+
+                <div class="email">
+                    <label> Email :</label><br>
+                    <input type="email" name="email" placeholder="Email">
+                </div>
+
+                <div class="password">
+                    <label>Password :</label><br>
+                    <input type="password" name="Password" placeholder="Password">
+                </div>
+                <div class="login">
+                    <button>LOGIN</button>
+                </div>
+
+
+
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>
+</body>
+
+</html>
