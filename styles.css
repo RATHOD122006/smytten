@@ -80,7 +80,7 @@ body {
 .searchbar {
     width: 240px;
     height: 37px;
-    border-radius: 30px;
+    border-radius: 30px; 
     display: flex;
     justify-content: center;
     align-items: center;
