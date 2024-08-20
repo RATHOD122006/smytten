@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+  </head>
+  <body>
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+      .wrapper {
+        height: 100vh;
+        border: 1px solid black;
+        margin: 0 auto;
+        display: flex;
+      }
+      .box {
+        width: 100px;
+        height: 100px;
+        background-color: aqua;
+        transition: all 5s ease;
+        
+      }
+      .box:hover{
+        animation-name: bouceln;
+        animation-duration: 2s;
+      }
+     
+      
+    </style>
+    <div class="wrapper">
+      <div class="box animate__bounceIn "></div>
+    </div>
+  </body>
+</html>

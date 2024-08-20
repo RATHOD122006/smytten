@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+      .wrapper {
+        height: 100vh;
+        border: 1px solid black;
+        margin: 0 auto;
+        display: flex;
+      }
+      .box {
+        width: 100px;
+        height: 100px;
+        background-color: aqua;
+        transition: all 5s ease;
+        animation-name: circle;
+        animation-iteration-count: infinite;
+        animation-duration: 5s;
+        animation-direction: alternate-reverse;
+      }
+      /* @keyframes circle {
+        from {
+          transform: translateX(0px);
+        }
+        to {
+            transform: translateX(500px);
+            background-color: red;
+            border-radius: 50%;
+        }
+      } */
+
+      @keyframes circle {
+
+        0%{
+            transform: translateX(0px);
+        }
+        50%{
+            background-color: pink;
+            
+        }
+        100%{
+            transform: translateX(500px);
+            background-color: red;
+            border-radius: 50%;
+
+        }
+      }
+    </style>
+    <div class="wrapper">
+      <div class="box"></div>
+    </div>
+  </body>
+</html>
